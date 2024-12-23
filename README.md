@@ -1,7 +1,57 @@
 # Segment_Anything_Model_SAM_Kaggle_BrainTumorSegmentation2020
 This repo contains codes for specific fine tuning of SAM by using BrainTumorSegmentation2020 (BraTS2020) Dataset on Kaggle
 
-Certainly! Below is an enhanced and comprehensive guide for training the **Segment Anything Model (SAM)** using **Ultralytics** on the **BraTS 2020** dataset within **Google Colab**. This guide incorporates the use of **`scipy.spatial.distance.directed_hausdorff`** to compute the **Hausdorff Distance** during training.
+
+# Task
+
+The Description of the project is as follows :
+
+i need to train the Segment Anything Model (SAM) on the Brats 2020 dataset found on Kaggle and here is its link: https://www.kaggle.com/datasets/awsaf49/brats2020-training-data
+
+please use this exact dataset in the link.
+
+the training should be done on google colab using python and T4 GPU
+
+Requirements:
+
+1- Google Drive that contains all the directories of the data used in training
+
+2- Google Colab File That contains the following:
+
+
+-combine the 3 mask channels into one mask (use this mask for training)
+-combine the 4 image channels into one image ( use this image for training)
+-visualize a sample of the combined mask and combined image
+
+
+
+
+Start Training the Segment Anything Model 
+using T4 gpu ( this is a must)
+for 5 epochs
+batch size 2
+Print for every epoch : Haussdorf, Dice, Loss, precision
+
+
+
+
+Train the Segment Anything Model 
+using T4 gpu ( this is a must)
+for 10 epochs
+batch size 2
+Print for every epoch : Haussdorf, Dice, Loss, precision
+
+Milestone 4:
+
+Start Training the Segment Anything Model 
+using T4 gpu ( this is a must)
+for 20 epochs
+batch size 2
+Print for every epoch : Haussdorf, Dice, Loss, precision
+
+---
+
+Below is a comprehensive guide for training the **Segment Anything Model (SAM)** using **Ultralytics** on the **BraTS 2020** dataset within **Google Colab**. This guide incorporates the use of **`scipy.spatial.distance.directed_hausdorff`** to compute the **Hausdorff Distance** during training.
 
 ---
 
